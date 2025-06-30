@@ -26,7 +26,6 @@ export default defineConfig({
     }),
   ],
   server: {
-    port: 5001,
     cors: true,
     headers: {
       "Access-Control-Allow-Origin": "*",
